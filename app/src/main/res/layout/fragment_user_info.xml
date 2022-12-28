@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_dark"
+    tools:context=".presentation.ui.fragments.userinfo.UserInfoFragment">
+
+    <Button
+        android:id="@+id/btn_get_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:paddingHorizontal="20dp"
+        android:text="get Data"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tv_get_first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        tools:text="Marsel" />
+
+    <TextView
+        android:id="@+id/tv_get_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        tools:text="Marsel" />
+
+    <TextView
+        android:id="@+id/tv_get_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        tools:text="Marsel" />
+
+    <TextView
+        android:id="@+id/tv_get_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        tools:text="Marsel" />
+
+    <TextView
+        android:id="@+id/tv_get_place_of_living"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        tools:text="Marsel" />
+
+</LinearLayout>
